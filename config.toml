@@ -1,0 +1,64 @@
+baseurl = "http://example.com/"
+title = "Nishchay Parashar"
+languageCode = "en-us"
+# disqusShortname = "your_disqus_shortname"
+MetaDataFormat = "toml"
+canonifyurls = true
+theme = "hyde-x"
+paginate = 10
+
+[author]
+    name = "Nishchay Parashar"
+    email = "nishchayparashar98@gmail.com"
+    github = "nishchayp"
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+
+[params]
+    truncate = true
+
+    defaultDescription = "Nishchay Parashar"
+    defaultKeywords = "computer science, developer"
+
+    hideReadingTime = false
+
+    highlight = "sunburst"
+
+    tagline = "Learn. Apply. Repeat."
+
+    home = ""
+
+    email = "mailto:nishchayparashar98@gmail.com"
+    github = "https://github.com/nishchayp"
+    linkedin = "https://www.linkedin.com/in/nishchayp/"
+    rss = false
+
+[[menu.main]]
+    name = " Home"
+    pre = "<i class='fa fa-home'></i>"
+    weight = -100
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = " About Me"
+    pre = "<i class='fa fa-user'></i>"
+    weight = -95
+    identifier = "about-me"
+    url = "/about-me/"
+[[menu.main]]
+    name = " Coding Adventures"
+    pre = "<i class='fa fa-keyboard-o'></i>"
+    weight = -90
+    url = "categories/code"
+[[menu.main]]
+    name = " Blog"
+    pre = "<i class='fa fa-rss'></i>"
+    weight = -85
+    url = "categories/blog"
+[[menu.main]]
+    name = " Resume"
+    pre = "<i class='fa fa-file'></i>"
+    weight = -80
+    url = "/docs/resume.pdf"
