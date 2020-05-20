@@ -1,7 +1,7 @@
 baseurl = "https://nishchayp.github.io/"
 title = "Nishchay Parashar"
 languageCode = "en-us"
-# disqusShortname = "your_disqus_shortname"
+disqusShortname = "nishchayp"
 MetaDataFormat = "toml"
 canonifyurls = true
 theme = "hyde-x"
